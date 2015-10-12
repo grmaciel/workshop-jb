@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
     println("Hello, world!")
 }
 
-fun todoTask0() = TODO(
+fun todoTask0():String = TODO(
     """
         Introduction:
 
@@ -27,7 +27,7 @@ fun todoTask0() = TODO(
 )
 
 fun task0(): String {
-    return todoTask0()
+    return "OK"
 }
 
 
